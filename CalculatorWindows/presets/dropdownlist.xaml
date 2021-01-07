@@ -1,0 +1,32 @@
+﻿<UserControl x:Class="CalculatorWindows.presets.dropdownlist"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CalculatorWindows.presets"
+             mc:Ignorable="d" 
+             d:DesignHeight="18.812" d:DesignWidth="38.792">
+    <Grid>
+        <Menu >
+            <MenuItem Header="_File" Width="39" >
+                <MenuItem Header="_Cut" Command="Cut"/>
+                <Separator />
+                <MenuItem Header="_Copy" Command="Copy"/>
+                <Separator />
+                <MenuItem Header="_Paste" Command="Paste"/>
+                <Separator />
+                <MenuItem Header="_Digit grouping">
+                    <MenuItem Header="_RO" />
+                    <Separator />
+                    <MenuItem Header="_UK" />
+                    <Separator />
+                    <MenuItem Header="_Off" />
+                    <Separator />
+                    <MenuItem Header="_On" />
+                </MenuItem>
+                <Separator />
+                <MenuItem Header="_Exit" />
+            </MenuItem>
+        </Menu>
+    </Grid>
+</UserControl>

@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="CalculatorWindows.presets.AboutContent"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CalculatorWindows.presets"
+             mc:Ignorable="d" 
+             d:DesignHeight="87.519" d:DesignWidth="511.812">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+            <RowDefinition Height="0*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="182" />
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" Content="Name:"/>
+        <Label Grid.Row="1" Grid.Column="0" Content="Numarul de procesoare din sistem:"/>
+        <Label Grid.Row="2" Grid.Column="0" Content="Versiunea sistemului de operare :"/>
+        <Label Grid.Row="0" Grid.Column="1" Content="Taraburca Radu" HorizontalAlignment="Left" Width="317" Margin="0,0,-134,0"/>
+        <Label Grid.Row="1" Name="ProcesorsNumber" Grid.Column="1" Content="" HorizontalAlignment="Left" Width="317" Margin="0,0,-134,0"/>
+        <Label Grid.Row="2" Name="SO" Grid.Column="1" Content="" HorizontalAlignment="Left" Width="317" Margin="0,0,-134,0"/>
+    </Grid>
+</UserControl>

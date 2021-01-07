@@ -1,0 +1,18 @@
+﻿<Window x:Class="CalculatorWindows.AboutContentWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CalculatorWindows.presets"
+        mc:Ignorable="d"
+        Title="About" Height="217.188" Width="428.438">
+    <Grid>
+        <local:AboutContent Loaded="AboutContent_Loaded" Margin="0,0,0,102" ></local:AboutContent>
+
+        <TextBlock Margin="10,102,0,0" >
+           <Hyperlink NavigateUri="https://intranet.unitbv.ro/Taraburca_Radu" RequestNavigate="Hyperlink_RequestNavigate">
+           Hyperlink
+           </Hyperlink>
+        </TextBlock>
+    </Grid>
+</Window>
